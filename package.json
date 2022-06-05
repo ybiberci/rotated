@@ -1,0 +1,19 @@
+{
+  "name": "wcg_html5-360_viewer-example",
+  "version": "1.0.0",
+  "description": "WCG -- HTML5 360 Viewer Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML5",
+    "360",
+    "Viewer"
+  ],
+  "author": "Siddharth Seth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

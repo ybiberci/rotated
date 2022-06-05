@@ -1,0 +1,15 @@
+#panorama{
+    width: 100%;
+    border: 2px solid black;
+    height: 768px;    
+    background: url("/images/pexels-photo-356886.jpeg") 0 0 repeat-x;   
+   
+}
+#image360, #advanced360{
+    display:inline-block;
+}
+#slider{
+    display: block;
+    left: 225px;
+    position: absolute;
+}
