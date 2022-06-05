@@ -7,7 +7,7 @@ var images = [];
 //Preloading images
 for(var i = 1; i < 25; i++){
     images[i] = new Image();
-    images[i].src = "/images/Car360_" + i + ".png";
+    images[i].src = "/images/world_" + i + ".png";
 }
 
 //Event handler for input from the slider as the user slides it
@@ -19,8 +19,8 @@ slider.addEventListener("input", function(){
 
 //Function to switch out to the next image
 function rotate(){
-    if(imageNo === 0) imageNo = 24;
-    else if(imageNo === 25) imageNo = 0;
+    if(imageNo === 0) imageNo = 21;
+    else if(imageNo === 22) imageNo = 0;
     advanced360.src = images[imageNo].src;
 }
 
