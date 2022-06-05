@@ -19,8 +19,8 @@ slider.addEventListener("input", function(){
  
 //Function to switch out to the next image
 function rotate(){
-    if(imageNo === 0) imageNo = 24;
-    else if(imageNo === 25) imageNo = 0;
+    if(imageNo === 0) imageNo = 21;
+    else if(imageNo === 22) imageNo = 0;
     advanced360.src = images[imageNo].src;
 }
  
