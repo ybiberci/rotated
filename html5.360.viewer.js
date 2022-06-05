@@ -7,7 +7,7 @@ var images = [];
 //Preloading images
 for(var i = 1; i < 25; i++){
     images[i] = new Image();
-    images[i].src = "/images/Car360_" + i + ".png";
+    images[i].src = "/images/world_" + i + ".png";
 }
  
 //Event handler for input from the slider as the user slides it
